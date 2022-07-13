@@ -1,0 +1,20 @@
+[
+ {
+   "title": "Celular",
+   "price": 60000,
+   "thumbnail": "https://www.megatone.net/Images/Articulos/zoom2x/209/01/KIT2155MOT.jpg",
+   "id": 1
+ },
+ {
+   "title": "Televisor",
+   "price": 32050,
+   "thumbnail": "https://static2.abc.es/media/favorito/2022/03/01/mejor-television-calidad-precio_20220301201917-U86147306024VvE-620x349@abc.jpg",
+   "id": 2
+ },
+ {
+   "title": "Pala",
+   "price": 2500,
+   "thumbnail": "https://www.martinezescalada.com.ar/4864-large_default/pala-forjada-punta-corazon-gherardi.jpg",
+   "id": 3
+ }
+]
