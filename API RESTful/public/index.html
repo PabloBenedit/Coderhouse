@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api RESTful</title>
+</head>
+
+<body>
+    <div class="qfc-container">
+      <h2 style="color: black; font-size: 27px;" >Ingrese un nuevo producto</h2>
+      <form action="/api/productos" method="POST">
+        <label style="color: red; font-size: 20px;" > Nombre: </label> 
+          <input placeholder="Producto" type="text" name="name" size="25"><br><br>
+        <label style="color:green; font-size: 20px;"> Precio: </label> 
+        &nbsp&nbsp&nbsp<input placeholder="Precio" type="text" name="price" size="25"><br><br>
+        <label style="color: orange; font-size: 20px;" > Imagen: </label> 
+        &nbsp<input placeholder="URL imagen" type="text" name="thumbnail" size="25"> <br><br>
+        <input type="submit" value="Agregar Nuevo Producto" />
+      </form>
+    </div>
+  </body>
+</html>
