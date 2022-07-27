@@ -1,0 +1,22 @@
+include ./layout.pug
+
+- const classLabel = ['form-label', 'fw-bold']
+- const classDiv = ['mb-3']
+
+section.p-4.bg-secondary
+    h2.style.color  Ingrese Producto
+    form(action='/productos' method='POST')
+        div(class=classDiv)
+            label(class=classLabel for='name') Nombre
+            input.form-control(type='text' name='name' placeholder="Ingrese nombre producto")
+        div(class=classDiv)
+            label(class=classLabel for='name') Precio
+            input.form-control(type='number' name='price' placeholder="Ingrese precio producto")
+        div(class=classDiv)
+            label(class=classLabel for='name') Foto URL
+            input.form-control(type='url' name='picture' placeholder="Ingrese url de la imagen")
+        div(class=classDiv)
+            input.btn.btn-success(type='submit' value='Cargar produto')
+    div(class=classDiv)
+        a(href="./listaproductos")
+            button.btn.btn-warning Ver Lista Productos
