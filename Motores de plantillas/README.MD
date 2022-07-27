@@ -1,0 +1,1 @@
+De los tres motores de plantillas ejs fue el que me resulto mas facil de trabajar al igual que handlebars, pug no tiene una sintaxis amigable. elegiria ejs ya que es el mas utilizado actualmete y resulta el mas facil de comprender e implementar.  
