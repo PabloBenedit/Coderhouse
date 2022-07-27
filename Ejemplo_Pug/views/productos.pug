@@ -1,0 +1,24 @@
+include layout.pug
+
+section
+    h2.style.color Vista de Productos
+    if productos.length===0
+        div.mt-4
+        h2.bg-light.p-4.text-danger No se han cargado productos
+    else
+        table.table.table-striped.table-hover
+            thead
+                tr
+                    th(style={color: 'red'}) Nombre
+                    th(style={color: 'red'}) Precio
+                    th(style={color: 'red'}) Foto
+            tbody
+                each producto in productos
+                    tr
+                        td.class.align-middle(style={color: 'black'})= producto.name
+                        td.class.align-middle(style={color: 'black'})= producto.price
+                        td.class.align-center(style={color: 'black'})
+                            img(src=producto.picture alt=producto.name width="100px")
+    div.mt-3
+    a(href="./productos")
+        button.btn.btn-warning Agregar nuevo producto
